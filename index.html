@@ -1,51 +1,176 @@
 <!doctype html>
-<html lang="en">
+<html lang="he" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite SPA Boilerplate</title>
+    <title>Nitay.AI - מומחה לשיווק דיגיטלי עם בינה מלאכותית</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="app">
-      <div class="container">
-        <header>
-          <img src="/vite.svg" alt="Vite logo" class="logo" />
-          <h1>Vite SPA Boilerplate</h1>
-          <p class="subtitle">A modern single page application starter</p>
-        </header>
-        
-        <main>
-          <section class="hero">
-            <h2>Welcome to your new project!</h2>
-            <p>This is a clean, minimal boilerplate to get you started with Vite.</p>
-          </section>
-          
-          <section class="features">
-            <div class="feature-card">
-              <h3>⚡ Fast Development</h3>
-              <p>Lightning fast HMR and build times with Vite</p>
+      <!-- Navigation -->
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="nav-logo">
+            <span class="logo-text">Nitay.AI</span>
+          </div>
+          <div class="nav-menu">
+            <a href="#home" class="nav-link">בית</a>
+            <a href="#services" class="nav-link">שירותים</a>
+            <a href="#about" class="nav-link">אודות</a>
+            <a href="#contact" class="nav-link">צור קשר</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero-section" id="home">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">המדריך החכם שלך <br/> לעולמות השיווק הדיגיטלי</h1>
+            <p class="hero-subtitle">הפקת תוכן מותאם אישית, שילוב עולמות הטכנולוגיה, המדיה החברתית והמיתוג עם כלי בינה מלאכותית מתקדמים</p>
+            <div class="hero-buttons">
+              <button class="btn-primary">התחל עכשיו</button>
+              <button class="btn-secondary">למד עוד</button>
             </div>
-            <div class="feature-card">
-              <h3>🚀 Modern JavaScript</h3>
-              <p>ES modules, async/await, and modern syntax support</p>
+          </div>
+          <div class="hero-image">
+            <div class="ai-avatar"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services-section" id="services">
+        <div class="container">
+          <h2 class="section-title">השירותים שלנו</h2>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon">🤖</div>
+              <h3>אוטומציה חכמה</h3>
+              <p>אוטומציה מתקדמת של תהליכי שיווק עם בינה מלאכותית לחיסכון בזמן והגדלת היעילות</p>
             </div>
-            <div class="feature-card">
-              <h3>📦 Optimized Build</h3>
-              <p>Production-ready builds with tree-shaking and minification</p>
+            <div class="service-card">
+              <h3>תוכן מותאם אישית</h3>
+              <div class="service-icon">✍️</div>
+              <p>יצירת תוכן איכותי ומותאם לקהל היעד שלך באמצעות כלי AI מתקדמים</p>
             </div>
-          </section>
-          
-          <section class="counter-demo">
-            <button id="counter" type="button">Count: 0</button>
-            <p>Click the button to test interactivity!</p>
-          </section>
-        </main>
-        
-        <footer>
-          <p>Built with <a href="https://vitejs.dev" target="_blank">Vite</a></p>
-        </footer>
-      </div>
+            <div class="service-card">
+              <div class="service-icon">📊</div>
+              <h3>ניתוח נתונים חכם</h3>
+              <p>ניתוח מעמיק של נתוני שיווק עם תובנות מבוססות AI לקבלת החלטות טובות יותר</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🎯</div>
+              <h3>מיקוד קהל מדויק</h3>
+              <p>זיהוי וטירגוט קהלי יעד רלוונטיים באמצעות אלגוריתמים מתקדמים</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">💬</div>
+              <h3>צ'אט בוט חכם</h3>
+              <p>פיתוח צ'אט בוטים מתקדמים לשירות לקוחות וליצירת לידים</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🚀</div>
+              <h3>אסטרטגיית גדילה</h3>
+              <p>בניית אסטרטגיות גדילה מותאמות אישית עם כלי AI לחברות וארגונים</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="about-content">
+            <div class="about-text">
+              <h2>אודות Nitay.AI</h2>
+              <p>אני נתיי, מומחה לשיווק דיגיטלי עם התמחות בבינה מלאכותית. במשך השנים פיתחתי מתודולוגיות ייחודיות לשילוב כלי AI בתהליכי שיווק מורכבים.</p>
+              <p>המטרה שלי היא לעזור לעסקים לנצל את הפוטנציאל המלא של הבינה המלאכותית כדי להגדיל את ההכנסות, לחסוך זמן ולייעל תהליכים.</p>
+              <div class="stats">
+                <div class="stat">
+                  <span class="stat-number">500+</span>
+                  <span class="stat-label">פרויקטים מוצלחים</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-number">95%</span>
+                  <span class="stat-label">שביעות רצון לקוחות</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-number">3</span>
+                  <span class="stat-label">שנות ניסיון</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-image">
+              <div class="profile-card">
+                <div class="profile-avatar"></div>
+                <h3>נתיי - מומחה AI</h3>
+                <p>שיווק דיגיטלי ובינה מלאכותית</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <h2 class="section-title">צור קשר</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <h3>בואו נתחיל לעבוד יחד</h3>
+              <p>מוכן לקחת את השיווק הדיגיטלי שלך לשלב הבא? בואו נדבר על איך אוכל לעזור לך להשיג את המטרות שלך.</p>
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <span class="contact-icon">📧</span>
+                  <span>contact@nitay.ai</span>
+                </div>
+                <div class="contact-method">
+                  <span class="contact-icon">📱</span>
+                  <span>050-123-4567</span>
+                </div>
+                <div class="contact-method">
+                  <span class="contact-icon">💬</span>
+                  <span>צור קשר בווטסאפ</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <form id="contact-form">
+                <input type="text" placeholder="שם מלא" required>
+                <input type="email" placeholder="כתובת אימייל" required>
+                <input type="tel" placeholder="מספר טלפון">
+                <textarea placeholder="ספר לי על הפרויקט שלך..." rows="5" required></textarea>
+                <button type="submit" class="btn-primary">שלח הודעה</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-brand">
+              <span class="logo-text">Nitay.AI</span>
+              <p>מובילים את המהפכה הדיגיטלית עם בינה מלאכותית</p>
+            </div>
+            <div class="footer-links">
+              <a href="#privacy">מדיניות פרטיות</a>
+              <a href="#terms">תנאי שימוש</a>
+              <a href="#sitemap">מפת אתר</a>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© 2024 Nitay.AI - כל הזכויות שמורות</p>
+          </div>
+        </div>
+      </footer>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>

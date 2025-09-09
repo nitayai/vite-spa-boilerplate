@@ -1,14 +1,5 @@
 import './assets/style.css'
-
-let count = 0
-
-function setupCounter(element) {
-  const setCounter = (count) => {
-    element.innerHTML = `Count: ${count}`
-  }
-  element.addEventListener('click', () => setCounter(++count))
-  setCounter(0)
-}
+import { setupCounter } from './counter.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   const counterButton = document.querySelector('#counter')
